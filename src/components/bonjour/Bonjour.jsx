@@ -1,4 +1,4 @@
-import style from "./Bonjou.module.css"
+import style from "./Bonjour.module.css"
 
 function Bonjour(props) {
 
@@ -6,7 +6,7 @@ function Bonjour(props) {
 
     return (
         <div className={style.container}>
-            <p className={style.bienvenue}>Bienvenue {name} sur l'application React</p>
+            <p className={age > 18 && style.bienvenue}>Bienvenue {name} sur l'application React</p>
             <p>Vous {age} avez ans</p>
         </div>
     )
