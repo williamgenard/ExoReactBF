@@ -1,5 +1,6 @@
 import './App.css'
 import Bonjour from './components/bonjour/Bonjour'
+import Calculatrice from './components/calculatrice/Calculatrice'
 import Counter from './components/counter/Counter'
 import ProductList from './components/product-list/ProductList'
 
@@ -31,8 +32,9 @@ function App() {
       {/* <Bonjour name="William" age={29} />
       <Bonjour name="William" /> */}
       {/* <ProductList products={products}/> */}
-      <Counter/>
-      <Counter incr={5}/>
+      {/* <Counter/>
+      <Counter incr={5}/> */}
+      <Calculatrice/>
     </>
   )
 }
